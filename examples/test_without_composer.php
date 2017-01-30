@@ -1,5 +1,5 @@
 <?php
-include_once (dirname(__FILE__) . '/Oara/settings.php');
+include_once (dirname(__FILE__) . '/Oara/settings_without_composer.php');
 
 function __autoload($class_name) {
   $class_name = str_replace("\\","/",$class_name);
