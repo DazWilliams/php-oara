@@ -49,8 +49,8 @@ class AffiliateWindow extends \Oara\Network
     public function login($credentials)
     {
         ini_set('default_socket_timeout', '120');
-        $accountid = $credentials['accountid'];
-        $password = $credentials['apipassword'];
+        $accountid = $credentials['user'];
+        $password = $credentials['password'];
 
         $nameSpace = 'http://api.affiliatewindow.com/';
         $wsdlUrl = 'http://api.affiliatewindow.com/v6/AffiliateService?wsdl';
